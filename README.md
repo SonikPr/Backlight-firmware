@@ -3,7 +3,7 @@ This is the NEON V3 version of the firmware for the backlight AVR microcontrolle
 
 
 HUGE UPDATE!!!!
-Current version is 5.4.7. This version received a lot of new features, new tweaks, options and a lot of optimization
+Current version is 5.7.5. This version received a lot of new features, new tweaks, options and a lot of optimization
 
 Overview:
 Arduino-based NEON V3 controller is a control panel for progreammable LED array, basen on WS2812B diodes. Using specially designed diffusers, you can achieve beautiful neon effect. This board is designed to be powered from default ATX power supply with additional PWM-controlled fan. Built-in program hysteresis for cooling fan is present. On standby control panel can display the clock through internal RTC. 
@@ -18,7 +18,7 @@ Modes:
 5. Color breathe (fading and firing up with costumizable timings)
 6. Plain white (standart white backlight to create pure abmient for work. Triggers MAX brightness)
 7. Conference (same as backlight, but uses exact colors to make your face on webcam look natural. Also triggers max brightness)
-8. Flame mode (imitating real fire, using Perlin noise. This effect was made by AlexGyver, I only included it to this project)
+8. Flame mode (imitating real fire, using Perlin noise. Saw this effect in some AlexGyver videos, ported it to FastLED library and added here)
 9. Sleep mode (total shutdown of the strip, but the controller is standby)
 10. Old version has "glitch mode" random strip lagging, brightness errors, which appears in random time and couldnt be the same everytime. Maybe, it would be brought back in the future updates.
 
